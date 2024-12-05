@@ -4,6 +4,7 @@
 - [世界最速でHonoをAmplify Hostingで動かしてみた - gensobunya Life Blog](https://gensobunya-tech.hatenablog.com/entry/2023/11/21/221416)
 
 ### Getting Started
+
 ```
 npm create hono@latest amplify-hono-server-test
 cd amplify-hono-server-test
@@ -12,6 +13,7 @@ cd amplify-hono-server-test
 ### Generate tsconfig.json
 
 ```ruby
+npm i typescript -D
 rm tsconfig.json
 npx tsc --init
 ```
