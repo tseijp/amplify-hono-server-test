@@ -1,0 +1,17 @@
+{
+  "name": "amplify-hono-server-test",
+  "type": "module",
+  "scripts": {
+    "start": "tsx watch index.ts",
+    "build": "tsc --outDir dist",
+    "serve": "node dist/index.js"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.7",
+    "hono": "^4.6.12"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "tsx": "^4.7.1"
+  }
+}
