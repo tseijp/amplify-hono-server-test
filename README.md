@@ -9,36 +9,38 @@ npm create hono@latest amplify-hono-server-test
 cd amplify-hono-server-test
 ```
 
-### Install express, typescript and types
-```ruby
-npm install express --save
-npm install typescript ts-node @types/node @types/express --save-dev
-```
-
 ### Generate tsconfig.json
 
 ```ruby
+rm tsconfig.json
 npx tsc --init
 ```
 
 ### Update main file
 
 ```ruby
-curl -O https://raw.githubusercontent.com/tseijp/amplify-express-server-test/refs/heads/main/index.ts
-curl -O https://raw.githubusercontent.com/tseijp/amplify-express-server-test/refs/heads/main/deploy-manifest.json
-curl -O https://raw.githubusercontent.com/tseijp/amplify-express-server-test/refs/heads/main/amplify.yml
+curl -O https://raw.githubusercontent.com/tseijp/amplify-hono-server-test/refs/heads/main/index.ts
+curl -O https://raw.githubusercontent.com/tseijp/amplify-hono-server-test/refs/heads/main/deploy-manifest.json
+curl -O https://raw.githubusercontent.com/tseijp/amplify-hono-server-test/refs/heads/main/amplify.yml
 ```
 
-### start, build, serve
+### Test start, build, serve
 
 ```ruby
-ts-node src
+# start
+tsx watch index.ts
+# build
 tsc --outDir dist
+# serve
+node dist/index.js
 ```
 
 ### Push to Github
 
 ```
+echo ".amplify-hosting" >> .gitignore
+git add .
+git commit -m ":tada: init commit"
 git branch -M main
 git remote add origin https://github.com/tseijp/amplify-hono-server-test.git
 git push -u origin main
