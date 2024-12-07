@@ -16,6 +16,7 @@ frontend:
         - cp -r ./static ./.amplify-hosting/static
         - cp -r ./static ./.amplify-hosting/compute/default
         - cp deploy-manifest.json ./.amplify-hosting/deploy-manifest.json
+        - echo "{ \"type\": \"module\" }" > ./.amplify-hosting/compute/default/package.json
   artifacts:
     baseDirectory: .amplify-hosting
     files:
