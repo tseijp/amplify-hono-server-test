@@ -8,14 +8,7 @@
 ```
 npm create hono@latest amplify-hono-server-test
 cd amplify-hono-server-test
-```
-
-### Generate tsconfig.json
-
-```ruby
 npm i typescript -D
-rm tsconfig.json
-npx tsc --init
 ```
 
 ### Update main file
