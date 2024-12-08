@@ -1,6 +1,6 @@
 # amplify-hono-server-test
 
-This repository serves as a testbed for deploying server applications using AWS Amplify Hosting's deployment specifications. It focuses on Hono, an ultrafast server framework like Express, which simple deployment process on AWS Amplify. The repo includes comprehensive instructions to facilitate Hono's integration and deployment.
+This repo serves as a testbed for deploying server applications using AWS Amplify Hosting's deployment specifications. It focuses on Hono, an ultrafast server framework like Express, which simple deployment process on AWS Amplify. The repo includes comprehensive instructions to facilitate Hono's integration and deployment.
 
 ### Other
 
