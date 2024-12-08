@@ -1,3 +1,17 @@
+# amplify-hono-server-test
+
+This repository serves as a testbed for deploying server applications using AWS Amplify Hosting's deployment specifications. It focuses on Hono, an ultrafast server framework like Express, which simple deployment process on AWS Amplify. The repo includes comprehensive instructions to facilitate Hono's integration and deployment.
+
+### Other
+
+- [amplify-express-server-test](https://github.com/tseijp/amplify-express-server-test)
+- amplify-hono-server-test
+- [amplify-waku-server-test](https://github.com/tseijp/amplify-waku-server-test)
+- ~~[amplify-next-server-test](https://github.com/tseijp/amplify-next-server-test)~~ @TODO
+- ~~[amplify-astro-server-test](https://github.com/tseijp/amplify-astro-server-test)~~ @TODO
+- ~~[amplify-remix-server-test](https://github.com/tseijp/amplify-remix-server-test)~~ @TODO
+
+
 ### Ref
 
 - [AWS Amplify HostingでHonoを使ったフルスタックウェブアプリケーションを構築する](https://zenn.dev/laiso/articles/cee5fc8b238bbe)
